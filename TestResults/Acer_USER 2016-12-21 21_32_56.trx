@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="d551b807-ef2f-400a-9d9b-2aad80f8150a" name="Acer@USER 2016-12-21 21:32:56" runUser="USER\Acer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Default Run Configuration" id="e88652a7-e1a1-40a8-8af9-1154abefbab7">
+    <Deployment runDeploymentRoot="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\TestResults\Acer_USER 2016-12-21 21_32_56">
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DES\bin\Debug\DES_1.dll" />
+    </Deployment>
+    <Hosts skipUnhostableTests="false" />
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="6" executed="6" passed="6" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2016-12-21T21:32:56.5173634+03:00" queuing="2016-12-21T21:33:05.8672200+03:00" start="2016-12-21T21:33:06.1797366+03:00" finish="2016-12-21T21:33:56.0996636+03:00" />
+  <TestDefinitions>
+    <UnitTest name="DESTestSourceDecrypt" storage="c:\users\acer\documents\visual studio 2008\projects\des\destests\bin\debug\destests.dll" id="3154799c-e0a1-7c58-9569-cd29d1bc3aa0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="608d3cbb-af8c-42d9-a0b6-6112035b104c" />
+      <TestMethod codeBase="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DESTests\bin\Debug\DESTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTests.Test, DESTests" name="DESTestSourceDecrypt" />
+    </UnitTest>
+    <UnitTest name="RSASign" storage="c:\users\acer\documents\visual studio 2008\projects\des\destests\bin\debug\destests.dll" id="c2d29ef2-6045-61e3-1d6a-f22e41477650">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4a06e669-85fe-45b6-a052-9a38404d6624" />
+      <TestMethod codeBase="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DESTests\bin\Debug\DESTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTests.Test, DESTests" name="RSASign" />
+    </UnitTest>
+    <UnitTest name="ElGamalTestSourceDecrypt" storage="c:\users\acer\documents\visual studio 2008\projects\des\destests\bin\debug\destests.dll" id="16e3d03b-e8c5-802f-e9c0-342107d2cdb0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="76d88b1d-93fe-4c76-8878-c5a3d9fc4b27" />
+      <TestMethod codeBase="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DESTests\bin\Debug\DESTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTests.Test, DESTests" name="ElGamalTestSourceDecrypt" />
+    </UnitTest>
+    <UnitTest name="ElGamalTestEncryptDecryptLenght" storage="c:\users\acer\documents\visual studio 2008\projects\des\destests\bin\debug\destests.dll" id="0e7cf8a3-3ea1-7e51-78da-44d1d9228cd6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ea3ca9b2-201f-4c74-a343-44e8b95250d2" />
+      <TestMethod codeBase="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DESTests\bin\Debug\DESTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTests.Test, DESTests" name="ElGamalTestEncryptDecryptLenght" />
+    </UnitTest>
+    <UnitTest name="DESTestDecrypt" storage="c:\users\acer\documents\visual studio 2008\projects\des\destests\bin\debug\destests.dll" id="726eb956-5c9f-0634-b91b-6403cea6b894">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e73d57e0-3aa3-4425-addc-c556fd66f004" />
+      <TestMethod codeBase="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DESTests\bin\Debug\DESTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTests.Test, DESTests" name="DESTestDecrypt" />
+    </UnitTest>
+    <UnitTest name="SHA1TestHash" storage="c:\users\acer\documents\visual studio 2008\projects\des\destests\bin\debug\destests.dll" id="54493a4d-419d-2f05-793b-58d412a9d7c1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a1a0667a-816f-441b-916f-33548ab68798" />
+      <TestMethod codeBase="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DESTests\bin\Debug\DESTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTests.Test, DESTests" name="SHA1TestHash" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="3154799c-e0a1-7c58-9569-cd29d1bc3aa0" executionId="608d3cbb-af8c-42d9-a0b6-6112035b104c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="726eb956-5c9f-0634-b91b-6403cea6b894" executionId="e73d57e0-3aa3-4425-addc-c556fd66f004" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="16e3d03b-e8c5-802f-e9c0-342107d2cdb0" executionId="76d88b1d-93fe-4c76-8878-c5a3d9fc4b27" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0e7cf8a3-3ea1-7e51-78da-44d1d9228cd6" executionId="ea3ca9b2-201f-4c74-a343-44e8b95250d2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54493a4d-419d-2f05-793b-58d412a9d7c1" executionId="a1a0667a-816f-441b-916f-33548ab68798" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c2d29ef2-6045-61e3-1d6a-f22e41477650" executionId="4a06e669-85fe-45b6-a052-9a38404d6624" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="608d3cbb-af8c-42d9-a0b6-6112035b104c" testId="3154799c-e0a1-7c58-9569-cd29d1bc3aa0" testName="DESTestSourceDecrypt" computerName="USER" duration="00:00:00.6339021" startTime="2016-12-21T21:33:06.3359941+03:00" endTime="2016-12-21T21:33:07.6202615+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e73d57e0-3aa3-4425-addc-c556fd66f004" testId="726eb956-5c9f-0634-b91b-6403cea6b894" testName="DESTestDecrypt" computerName="USER" duration="00:00:00.0014400" startTime="2016-12-21T21:33:07.6358881+03:00" endTime="2016-12-21T21:33:07.6358881+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76d88b1d-93fe-4c76-8878-c5a3d9fc4b27" testId="16e3d03b-e8c5-802f-e9c0-342107d2cdb0" testName="ElGamalTestSourceDecrypt" computerName="USER" duration="00:00:00.0044846" startTime="2016-12-21T21:33:07.6515095+03:00" endTime="2016-12-21T21:33:07.6515095+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ea3ca9b2-201f-4c74-a343-44e8b95250d2" testId="0e7cf8a3-3ea1-7e51-78da-44d1d9228cd6" testName="ElGamalTestEncryptDecryptLenght" computerName="USER" duration="00:00:00.0183084" startTime="2016-12-21T21:33:07.6671365+03:00" endTime="2016-12-21T21:33:07.6827619+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a1a0667a-816f-441b-916f-33548ab68798" testId="54493a4d-419d-2f05-793b-58d412a9d7c1" testName="SHA1TestHash" computerName="USER" duration="00:00:01.2892944" startTime="2016-12-21T21:33:07.6983873+03:00" endTime="2016-12-21T21:33:08.9797040+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4a06e669-85fe-45b6-a052-9a38404d6624" testId="c2d29ef2-6045-61e3-1d6a-f22e41477650" testName="RSASign" computerName="USER" duration="00:00:46.9515207" startTime="2016-12-21T21:33:08.9953270+03:00" endTime="2016-12-21T21:33:55.9902866+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

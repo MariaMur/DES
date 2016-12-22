@@ -1,0 +1,5 @@
+C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DES\bin\Debug\DES_1.dll
+C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DES\bin\Debug\DES_1.pdb
+C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DES\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DES\obj\Debug\DES_1.dll
+C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES\DES\obj\Debug\DES_1.pdb

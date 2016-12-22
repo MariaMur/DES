@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3790f3f0-50c9-4f42-91de-6277c51716ac" name="Acer@USER 2016-11-16 23:39:03" runUser="USER\Acer" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="bb265112-93dc-4170-b6f5-1c1a3b7430b8">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES_1\TestResults\Acer_USER 2016-11-16 23_39_03">
+      <DeploymentItem filename="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES_1\bin\Debug\DES_1.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2016-11-16T23:39:03.5016423+03:00" queuing="2016-11-16T23:39:08.0643708+03:00" start="2016-11-16T23:39:08.4237601+03:00" finish="2016-11-16T23:39:11.2989061+03:00" />
+  <TestDefinitions>
+    <UnitTest name="UnitTest1" storage="c:\users\acer\documents\visual studio 2008\projects\destests\bin\debug\destests.dll" id="54e9ca48-039f-db0b-3775-4ce72dfd089c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1acdc7b1-af33-4f7c-a0e9-80aecd0ed63b" />
+      <TestMethod codeBase="C:\Users\Acer\Documents\Visual Studio 2008\Projects\DESTests\bin\Debug\DESTests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="DESTests.TestDES, DESTests" name="UnitTest1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="54e9ca48-039f-db0b-3775-4ce72dfd089c" executionId="1acdc7b1-af33-4f7c-a0e9-80aecd0ed63b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1acdc7b1-af33-4f7c-a0e9-80aecd0ed63b" testId="54e9ca48-039f-db0b-3775-4ce72dfd089c" testName="UnitTest1" computerName="USER" duration="00:00:01.9643150" startTime="2016-11-16T23:39:08.7050243+03:00" endTime="2016-11-16T23:39:11.1114002+03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method DESTests.TestDES.UnitTest1 threw exception:  System.IO.FileNotFoundException: Файл "C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES_1\TestResults\Acer_USER 2016-11-16 23_39_03\Out\key.txt" не найден..</Message>
+          <StackTrace>    в System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   в System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy)
+   в System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   в System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   в System.IO.StreamReader..ctor(String path)
+   в DES_1.DESLib.keys() в C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES_1\Class1.cs:строка 314
+   в DES_1.DESCrypt.DESEncrypt(Stream sourceData) в C:\Users\Acer\Documents\Visual Studio 2008\Projects\DES_1\Class1.cs:строка 27
+   в DESTests.TestDES.UnitTest1() в C:\Users\Acer\Documents\Visual Studio 2008\Projects\DESTests\UnitTest1.cs:строка 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
